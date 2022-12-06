@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1670366908 "/Users/justinhager/Furman University/#7 - F2022/MTH450 - Real Analysis/fourier-series/Fourier_Series.tex" "Fourier_Series.pdf" "Fourier_Series" 1670366910
-  "/Users/justinhager/Furman University/#7 - F2022/MTH450 - Real Analysis/fourier-series/Fourier_Series.tex" 1670366907 35458 394883a4739f4e51202153935c328f6f ""
+["pdflatex"] 1670367024 "/Users/justinhager/Furman University/#7 - F2022/MTH450 - Real Analysis/fourier-series/Fourier_Series.tex" "Fourier_Series.pdf" "Fourier_Series" 1670367027
+  "/Users/justinhager/Furman University/#7 - F2022/MTH450 - Real Analysis/fourier-series/Fourier_Series.tex" 1670367023 35441 3ba81e7907f2e497fc9d87f545323f2c ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -198,8 +198,8 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1666208632 2826446 497fb278dbb6162e4f6f72283e33bb3e ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "Fourier_Series.aux" 1670366910 3908 12095029a8426c99f67003cc6c087ad5 "pdflatex"
-  "Fourier_Series.tex" 1670366907 35458 394883a4739f4e51202153935c328f6f ""
+  "Fourier_Series.aux" 1670367026 3908 12095029a8426c99f67003cc6c087ad5 "pdflatex"
+  "Fourier_Series.tex" 1670367023 35441 3ba81e7907f2e497fc9d87f545323f2c ""
   "Images/complex_1.png" 1670359217 96936 eb49e78e1c01327c0430487cdcd28ecc ""
   "Images/complex_10.png" 1670359244 198607 f403c4a4af1a7a4b09f3d25ab4117ac2 ""
   "Images/complex_2.png" 1670359221 128907 62ea0b581f87b7270b76a2f06e6aa8d9 ""
