@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  6 DEC 2022 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.10.19)  6 DEC 2022 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -576,78 +576,4 @@ Package pdftex.def Info: Images/simple_2.png  used on input line 279.
 <Images/simple_3.png, id=42, 652.4375pt x 652.4375pt>
 File: Images/simple_3.png Graphic file (type png)
 <use Images/simple_3.png>
-Package pdftex.def Info: Images/simple_3.png  used on input line 280.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/simple_5.png, id=43, 652.4375pt x 652.4375pt>
-File: Images/simple_5.png Graphic file (type png)
-<use Images/simple_5.png>
-Package pdftex.def Info: Images/simple_5.png  used on input line 288.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/simple_10.png, id=44, 652.4375pt x 652.4375pt>
-File: Images/simple_10.png Graphic file (type png)
-<use Images/simple_10.png>
-Package pdftex.def Info: Images/simple_10.png  used on input line 289.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/simple_full.png, id=45, 652.4375pt x 652.4375pt>
-File: Images/simple_full.png Graphic file (type png)
-<use Images/simple_full.png>
-Package pdftex.def Info: Images/simple_full.png  used on input line 290.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
- [7 <./Images/simple_1.png> <./Images/simple_2.png> <./Images/simple_3.png> <./Images/simple_5.png> <./Images/simple_10.png> <./Images/simple_full.png>]
-<Images/complex_full.png, id=56, 652.4375pt x 652.4375pt>
-File: Images/complex_full.png Graphic file (type png)
-<use Images/complex_full.png>
-Package pdftex.def Info: Images/complex_full.png  used on input line 326.
-(pdftex.def)             Requested size: 99.58464pt x 99.58368pt.
-
-Overfull \hbox (2.43332pt too wide) in paragraph at lines 319--328
-[]$[]$ $[]$
- []
-
-[8 <./Images/complex_full.png>]
-<Images/complex_1.png, id=61, 652.4375pt x 652.4375pt>
-File: Images/complex_1.png Graphic file (type png)
-<use Images/complex_1.png>
-Package pdftex.def Info: Images/complex_1.png  used on input line 357.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/complex_2.png, id=62, 652.4375pt x 652.4375pt>
-File: Images/complex_2.png Graphic file (type png)
-<use Images/complex_2.png>
-Package pdftex.def Info: Images/complex_2.png  used on input line 358.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/complex_3.png, id=63, 652.4375pt x 652.4375pt>
-File: Images/complex_3.png Graphic file (type png)
-<use Images/complex_3.png>
-Package pdftex.def Info: Images/complex_3.png  used on input line 359.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/complex_5.png, id=64, 652.4375pt x 652.4375pt>
-File: Images/complex_5.png Graphic file (type png)
-<use Images/complex_5.png>
-Package pdftex.def Info: Images/complex_5.png  used on input line 367.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-<Images/complex_10.png, id=65, 652.4375pt x 652.4375pt>
-File: Images/complex_10.png Graphic file (type png)
-<use Images/complex_10.png>
-Package pdftex.def Info: Images/complex_10.png  used on input line 368.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
-File: Images/complex_full.png Graphic file (type png)
-<use Images/complex_full.png>
-Package pdftex.def Info: Images/complex_full.png  used on input line 369.
-(pdftex.def)             Requested size: 113.81102pt x 113.80992pt.
- [9] [10 <./Images/complex_1.png> <./Images/complex_2.png> <./Images/complex_3.png> <./Images/complex_5.png> <./Images/complex_10.png>] [11] [12] [13] (./Fourier_Series.aux) ) 
-Here is how much of TeX's memory you used:
- 25314 strings out of 478268
- 639629 string characters out of 5846346
- 1072203 words of memory out of 5000000
- 42937 multiletter control sequences out of 15000+600000
- 478837 words of font info for 66 fonts, out of 8000000 for 9000
- 1302 hyphenation exceptions out of 8191
- 69i,13n,84p,887b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Fourier_Series.pdf (13 pages, 1256787 bytes).
-PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 89 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package pdf
