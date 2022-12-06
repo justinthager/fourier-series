@@ -119,16 +119,16 @@ Before embarking upon the derivation of the Fourier Series, we must first establ
         \begin{minipage}{0.5\textwidth}
             \begin{align*}
                 \int_{-L}^L \cos^2(nx)dx &= \frac{1}{2}\int_{-L}^L 1+ \cos(2nx)dx \\
-                &= \frac{1}{2} \left[ L -(-L) \right] = L
+                &= \frac{1}{2} \left[ L -(-L) \right] = L,
             \end{align*}
         \end{minipage}
         \begin{minipage}{0.5\textwidth}
         \begin{align*}
             \int_{-L}^L \sin^2(nx)dx &= \frac{1}{2}\int_{-L}^L 1- \cos(2nx)dx \\
-            &= \frac{1}{2} \left[ L -(-L) \right] = L 
+            &= \frac{1}{2} \left[ L -(-L) \right] = L.
         \end{align*}
         \end{minipage}[t]
-        \item If $n\neq m \in \N$,
+        \item For all $n,m \in \N$,
         \begin{align*}
             \int_{-L}^{L} \sin(nx)\cos(mx)dx &= \int_{-L}^{L} \dfrac{\sin((n+m)x)}{2} + \dfrac{\sin((n-m)x)}{2}dx\\
             &= \left[\dfrac{-1}{2(n+m)}cos((n+m)x)-\dfrac{1}{2(n-m)}cos((n-m)x)\right]_{-L}^L\\
@@ -136,13 +136,14 @@ Before embarking upon the derivation of the Fourier Series, we must first establ
             &\ -\left[\dfrac{-1}{2(n+m)}cos(-(n+m)L)-\dfrac{1}{2(n-m)}cos(-(n-m)L)\right]\\
             &= 0.
         \end{align*}
-        \item A similar process as (\ref{trig3}), shows that for all $n,m\in \N$ and $n\neq m$, it follows that, $$\int_{-L}^{L} \cos(mx)\cos(nx)dx =\int_{-L}^{L} \sin(mx)\sin(nx)dx  = 0.$$
+        \item A similar process as (\ref{trig3}), shows that for all $n\neq m\in \N$, it follows that, $$\int_{-L}^{L} \cos(mx)\cos(nx)dx =\int_{-L}^{L} \sin(mx)\sin(nx)dx  = 0.$$
     \end{enumerate}
 \end{proof}
 In addition to the above properties of trigonometric integration, we consider the two following lemmas. 
 \begin{lemma} \label{lem:trig1}
     For any $n\in\N$, $cos(n\pi) = (-1)^n$.
 \end{lemma}
+\vspace{-0.5cm}
 \begin{proof}
     Cosine is a periodic function with a period $2\pi$ where $\cos(\pi) = -1$ and $\cos(2\pi)= 1$. Further, if $n \in \N$ is even, $\cos(n\pi)= 1$ and if $n \in \N$ is odd, $\cos(n\pi) = -1.$ Thus, $\cos(n\pi) = (-1)^n$ for all $n\in\N.$
 \end{proof}
@@ -150,6 +151,7 @@ In addition to the above properties of trigonometric integration, we consider th
 \begin{lemma} \label{lem:trig2}
     For any $n\in\N$, $sin(n\pi) = 0$.
 \end{lemma}
+\vspace{-0.5cm}
 \begin{proof}
     Sine is also a periodic function with a period of $2\pi$, but at every interval of $\pi$, $\sin(x)$ crosses the $x$-axis and $\sin(x)=0$. Thus, $\sin(n\pi) = 0$ for any $n\in N$ and $n=0$. 
 \end{proof}
