@@ -325,7 +325,7 @@ In a previous section, we showed the derivation of the Fourier Series representa
 \begin{minipage}{0.5\textwidth}
         \includegraphics[width=35mm]{Images/complex_full.png}
 \end{minipage}
-Note that we have defined $g$ over the interval $[-1,1]$ but have represented it as a periodic function. By nature of the Fourier Transform, the resulting function's representation is by design periodic. This is simply something to consider when building the series. Using the generalized Fourier Series representation shown in Lemma \ref{lem:bounds}, let $a=-1$ and $b=1$. It follows that $$a_0=\dfrac{1}{b-a}\int_{a}^{b}g(x)dx = \dfrac{1}{2}\int_{-1}^{1}g(x)dx= \dfrac{1}{2}\left[\int_{-1}^{0}0\ dx + \int_{0}^{1}x\ dx\right]= \dfrac{1}{2}\left[\dfrac{1}{2}x^2\right]_{0}^{1} = \dfrac{1}{4}.$$
+Note that we have defined $g$ over the interval $[-1,1]$ but have represented it as a periodic function. By nature of the Fourier Transform, the resulting function's representation is periodic. This is simply something to consider when building the series. Using the generalized Fourier Series representation shown in Lemma \ref{lem:bounds}, let $a=-1$ and $b=1$. It follows that $$a_0=\dfrac{1}{b-a}\int_{a}^{b}g(x)dx = \dfrac{1}{2}\int_{-1}^{1}g(x)dx= \dfrac{1}{2}\left[\int_{-1}^{0}0\ dx + \int_{0}^{1}x\ dx\right]= \dfrac{1}{2}\left[\dfrac{1}{2}x^2\right]_{0}^{1} = \dfrac{1}{4}.$$
 To derive $a_n$, we have that
 \begin{align*}
     a_n &= \int_{a}^{b}g(x)\cos\left(\dfrac{2\pi nx}{b-a}\right)dx\\
@@ -350,7 +350,7 @@ Similarly, to derive $b_n$, we have that
 \end{align*}
 
 again where $(\dagger)$ was computed using integration by parts. From the work above, we have that our original function $g$ can be represented by the Fourier Series $$g(x) =\dfrac{1}{4} + \sum_{n=1}^\infty \dfrac{(-1)^n-1}{\pi^2 n^2}\cos(\pi nx) - \dfrac{(-1)^n}{\pi n}\sin(\pi nx)$$
-In the following images, we can visualize the Fourier Series along different values of $n$. As $n\to\infty$, we observe how to representation approaches the original function $g$. 
+In the following images, we can visualize the Fourier Series along different values of $n$. As $n\to\infty$, we observe how the representation approaches the original function $g$. 
 \begin{figure}[ht!]
 \centering
 \begin{tabular}{ccc}
@@ -373,12 +373,12 @@ In the following images, we can visualize the Fourier Series along different val
 \label{fig:complex}
 \end{figure}
 
-In the Figure \ref{fig:complex} above, we can again see the approximation of the function $g$ where the thicker line represents the value of the summation for different values of $n$ while the more faint lines are the individual terms in each summation.. Importantly, Figure \ref{fig:complex} highlights the superposition of unique sinusoidal waves. Each sequential term in the summation either adds to or reduces the height of prior terms.
+In Figure \ref{fig:complex}, we see the approximation of the function $g$ where the thicker line represents the value of the summation for different values of $n$ while the more faint lines are the individual terms in each summation. Importantly, Figure \ref{fig:complex} highlights the superposition of unique sinusoidal waves. Each sequential term in the summation either adds to or reduces the height of prior terms.
 
 \section{Continuity and Differentiability}
 
 \subsection{Continuity of a Fourier Series}
-As mentioned in the introduction, one of the defining characteristics of the Fourier Transform is the property of infinite continuity. In this section, we demonstrate how a continuous, differentiable function like $f(x)=x^2$ can be represented by a continuous series derived in Section \ref{x2} with the Fourier Transform. To prove this property, first consider the following theorems which we will use to prove the continuity of our Fourier series. 
+As mentioned in the introduction, one of the defining characteristics of the Fourier Transform is the property of continuity. In this section, we demonstrate how a continuous, differentiable function like $f(x)=x^2$ can be represented by the continuous series derived in Section \ref{x2}. To prove this property, first consider the following theorems which we will use to prove the continuity of the Fourier series. 
 
 \begin{theorem}[\textbf{Term-by-term Continuity Theorem} \cite{Abbott}]\label{thm:continuity}
     Let $f_n$ be continuous functions defined on a set $A\subseteq\R$, and assume $\sum_{n=1}^\infty f_n$ converges uniformly on $A$ to a function $f$. Then, $f$ is continuous on $A$.
